@@ -1,0 +1,43 @@
+.Weather {
+  padding: 50px;
+  border-radius: 90px;
+  border: 0;
+  color: #476add;
+  background-color: #f8dcef;
+  box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 45%);
+}
+
+.Weather .form-group {
+  margin-left: 0 !important;
+  padding-bottom: 30px;
+}
+
+.Weather .form-inline .form-group {
+  display: inline-block;
+}
+
+.Weather .form-control {
+  border: 0;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+.Weather.btn {
+  border: 0;
+  margin-top: 3px;
+  background-color: #2459eb;
+}
+
+.Weather.temp-current p,
+.Weather.temp-future p {
+  color: #7696dd;
+}
+
+.Weather.temp-current p {
+  font-size: 90px;
+  text-align: center;
+}
+
+.Weather.temp-future p {
+  font-size: 40px;
+}
